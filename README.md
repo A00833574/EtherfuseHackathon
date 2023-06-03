@@ -22,4 +22,3 @@ To deploy this project run
 [Tailwind CSS](https://tailwindcss.com/docs)
 [React Bootstrap](https://react-bootstrap.github.io/docs/components)
 [React ProSideBar](https://www.npmjs.com/package/react-pro-sidebar?activeTab=readme)
-
