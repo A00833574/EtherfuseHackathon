@@ -4,12 +4,14 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Layout } from "./Layout/Layout.jsx";
 
-function Hello() {
+function Home() {
   return(
     <div>
-      <Layout />
+      <Layout>
+        {/* Ingresa tus componentes aqui */}
+      </Layout>
     </div>
   );
 }
 
-render(<Hello />, document.getElementById("react-target"));
+render(<Home />, document.getElementById("react-target"));

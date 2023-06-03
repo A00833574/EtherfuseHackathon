@@ -4,7 +4,7 @@ import SidePanel from "./SidePanel/SidePanel.jsx";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-const Layout = () => {
+const Layout = ({children}) => {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
@@ -25,7 +25,7 @@ const Layout = () => {
             </Navbar>
             <div className="flex flex-cols-12 w-full h-full bg-red-300">
                 <SidePanel />
-                <Content />
+                <Content>{children}</Content>
             </div>
         </div>
     );
