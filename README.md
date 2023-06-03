@@ -11,7 +11,7 @@ React Bootstrap:
 React ProSideBar:
 -https://www.npmjs.com/package/react-pro-sidebar?activeTab=readme
 
-#Installation
+# Installation:
  Clone Repo
  Open VS Terminal
   Run 'npm install'
