@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
 import Login from './Login';
+import App from './Pages/Details';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Login />,
   },
+  {
+    path: "/Details",
+    element: <App />,
+  }
   // {
   //   path: "/File",
   //   element: <Component />,
