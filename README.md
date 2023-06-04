@@ -1,4 +1,3 @@
-
 # Pledge Change
 
 A Web Extension designed to allow individuals and organizations to create Crypto Currencies Donation Links
